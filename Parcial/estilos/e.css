@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  color: black;
+}
+
+.calc-border {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: black;
+
+  max-width: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.visor input {
+  font-size: 400%;
+  margin: 15px auto;
+  text-align: right;
+  width: 100%;
+  color: white;
+  background-color: #818181;
+}
+
+.button-style {
+  font-size: 400%;
+  margin: 1% 1%;
+  width: 17%;
+  color: white;
+  background-color: #0091ff;
+
+  transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+}
+
+.classarrow {
+  background-color: red;
+}
+
+.caja {
+  background-color: yellow;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  margin: 50px 10px;
+}
