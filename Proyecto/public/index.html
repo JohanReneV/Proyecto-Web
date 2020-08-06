@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> RAPI-COMBO 2020 </title>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css  ">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-light ">
+        <a class="navbar-brand text-white" href="#">
+          <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+          <strong>RAPI-COMBO </strong>
+        </a>
+      </nav>
+
+      <div class="banner text-center">
+        <h1>RAPI COMBOS</h1>
+        <p>En <strong>RAPI COMBOS queremos que disfrutes… por eso siéntate, relájate y empieza a
+            disfrutar… tu comida se va a preparar al momento tenlo por seguro!!!!!</strong></p>
+        <a class="btn btn-success" href="/index.html"> <strong> PAGINA PRINCIPAL</strong></a>
+      </div>
+
+  </header>
+
+  <section class="servicios">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <i class="fa fa-motorcycle fa-3x" aria-hidden="true"></i>
+          <h1>Domicilios</h1>
+          <a class="btn btn-success" href="/index.html"> <strong> Llamanos,tu pedido es nuestra mision </strong></a>
+        </div>
+        <div class="col text-center">
+          <i class="fa fa-user-circle-o fa-3x" aria-hidden="true"></i>
+          <h1>Contactanos</h1>
+          <a class="btn btn-success" href="/index.html"> <strong> Ya nos conocen? </strong></a>
+        </div>
+        <div class="col text-center">
+          <i class="fa fa-info fa-3x" aria-hidden="true"></i>
+          <h1>Mas Informacion</h1>
+          <a class="btn btn-success" href="/index.html"> <strong> A un solo click </strong> </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="mi-flex row">
+      <div class="col">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/img/3.jpg" class="d-block w-100" width="500" height="500">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>HAMBURGUESAS</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/img/2.jpg" class="d-block w-100" width="300" height="500">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>HAMBURGUESAS</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/img/1.jpg" class="d-block w-100" width="500" height="500">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>HAMBURGUESAS</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-3">
+
+        <h2>Pedidos</h2>
+        <div class="row mb-3">
+          <div class="col">
+            <label for="">Pedido</label>
+            <input class="form-control" type="text" id="name">
+  
+              <label for="">Cliente</label>
+              <input class="form-control" type="text" id="Sñor">
+          </div>
+        </div>
+        <button onclick=" agregarDatos() " class="btn btn-primary"> <strong> agregar pedido </strong> </button>
+      </div>
+      <div class="col mb-3">
+        <h1> Listado </h1>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">ORDEN</th>
+              <th scope="col" ></th>
+            </tr>
+          </thead>
+          <tbody id="Listado">
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="blog">
+    <div class="row">
+      <div class="col text-center">
+        <h1>
+          <font size=4><strong>Florencia - Caqueta - 2020 </strong></font>
+        </h1>
+        <div>
+          <div class="col text-center">
+            <h1>
+              <font size=4><strong> Cll 17 # 15-20</strong> </font>
+            </h1>
+            <div>
+            </div>
+            <nav class="nav d-flex justify-content-between">
+              <a class="p-2 text-muted" href="#" _msthash="604162" _msttexthash="60918"><Strong> PAGINA PRINCIPAL
+                </Strong> </a>
+              <a class="p-2 text-muted" href="#" _msthash="604604" _msttexthash="248495"><strong>CONTACTANOS
+                </strong></a>
+              <a class="p-2 text-muted" href="#" _msthash="605046" _msttexthash="180648"><strong> DOMICILIOS
+                </strong></a>
+              <a class="p-2 text-muted" href="#" _msthash="605488" _msttexthash="95472"><strong>MAS ACERCA DE NOSOTROS
+                </strong></a>
+            </nav>
+
+  </footer>
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+
+
+  <!----FIREBASE-->>
+  <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+
+  <script src="js/I/index.js"> </script>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url('/img/Proyec.jpg') center;
+  width: 100%;
+  background-size: cover;
+  opacity: 78%;
+}
+
+.banner {
+  padding: 10px;
+  color: white;
+}
+.banner p {
+  font-size: 20px;
+}
+.servicios {
+  padding: 40px;
+}
+.info {
+  background: #c7b198;
+  padding: 50px;
+}
+.mi-flex {
+  display: flex;
+  align-items: center;
+}
+.footer {
+  padding: 40px;
+  background: #3f4441;
+}
+.texto-footer {
+  font-size: 14px;
+}
+.blog {
+  padding: 10px;
+  color: dimgrey;
+  text-align: center;
+  background-color: #ffffff;
+  border-top: 0.05rem solid #e5e5e5a1;
+}
